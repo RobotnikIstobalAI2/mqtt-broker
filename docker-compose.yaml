@@ -3,7 +3,7 @@ version: '3.7'
 
 services:
   mqtt-broker:
-    image: eclipse-mosquitto:2
+    image: eclipse-mosquitto:2.0.15
     user: mosquitto
     volumes:
       - type: bind
